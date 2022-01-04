@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String getHello() {
-        // hello.htmlに画面遷移
+        // hello.htmlに画面遷移a
         return "hello";
     }
     
